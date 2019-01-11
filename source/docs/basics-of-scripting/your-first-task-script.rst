@@ -100,8 +100,26 @@ task script?*
 2. What Are Task Scripts?
 -------------------------
 
-.. todo
-  Finish this section
+Quite simply, task scripts are just script containers with script in it. There
+is no way for a task script to run automatically. This is why you had to use
+``/ex run TASK_SCRIPT_NAME`` to run the contents of each task script while
+in-game. The script command equivalent is ``- run TASK_SCRIPT_NAME``.
+
+To illustrate how useful task scripts are, let's come up with a situation where
+*not* having task scripts would be painful. Imagine having to do something in
+Denizen, and multiple scripts require a certain segment of script to be used
+over and over again. Our first solution is to copy and paste the same 20 lines
+of script over and over again.
+
+Now, imagine that you find out that the lines of script you copied and pasted
+has a bug in it. In order to fully fix the issue, you will need to find every
+line where you had copied and pasted those 20 lines of script. That's just
+unnecessary effort.
+
+Task scripts make it so that instead of copying and pasting multiple lines of
+script, we only ever have to copy and paste one line of script without losing
+any functionality. If there is a bug in the script, you will only ever need to
+edit the task script once and your issue is resolved. Nice, easy, and simple!
 
 |
 
