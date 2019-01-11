@@ -92,7 +92,7 @@ So you can go ham on that block, but stay with us.
 
 When you break a sand block, you should expect to see something like this:
 
-.. image:: /_static/images/f.2.4.2_result-of-f2.4.1.png
+.. image:: /_static/images/f2.4.2_result-of-f2.4.1.png
   :name: figure2_4_2
   :width: 90%
   :align: center
